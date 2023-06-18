@@ -1,2 +1,5 @@
 .*
 !/.gitignore
+notebooks/.*/*
+notebooks/data/*
+notebooks/nltk_data/*
