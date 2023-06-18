@@ -5,7 +5,7 @@ This is a Docker Compose setup for interacting wiht ChatGPT using Jupyter Notebo
 # Why 
 
 I am trying to get upto speed with all the stuff I read about LLM , specifically GPT-3.5/4 and the Langchain tooling 
-***I have not use HuggingFace** 
+***I have not used HuggingFace libraries** 
 
 
 # Environment 
