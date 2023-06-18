@@ -1,0 +1,14 @@
+version: '3'
+services:
+  jupyter-langchain-notebook:
+    build: .
+    image: jupyter-langchain-notebook-container
+    volumes:
+# MODIFY THE PATH TO YOUR LOCAL PATH    
+      - ./notebooks:/home/jovyan
+      - ./data:/home/jovyan/data
+    ports:
+      - 8888:8888
+    environment:
+      - OPENAI_API_KEY=${OPEN_API_KEY}
+
